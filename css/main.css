@@ -329,6 +329,7 @@ main {
 }
 summary {
   background-color: #503c7c;
+  cursor: pointer;
 }
 details {
   padding-top: 10px;
