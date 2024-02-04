@@ -1,19 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap");
-
 :root {
   --clr-violeta: #2c1e4a;
   --clr-violetaClaro: #e27cf9;
   --clr-violetaOscuro: #503c7c;
   --clr-rosita: #d73cbe;
   --clr-negro: #1c1c1c;
-  --font-roboto: "Roboto Mono", monospace;
+
   --padleft: 20px;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--font-roboto);
+
   background-color: var(--clr-violeta);
 }
 body {
