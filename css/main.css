@@ -376,7 +376,7 @@ details p {
 .proyectos {
   color: aliceblue;
   padding: var(--padleft);
-  background-image: url("../imagenes/file.png");
+  background-image: url("../imagenes/file.webp");
 }
 .proyectos h2 {
   text-transform: uppercase;
