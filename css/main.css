@@ -525,6 +525,8 @@ footer {
   background: transparent;
 }
 
+/******************************************************************************************/
+/*****************************************************************************************/
 /**************** media queries ********************/
 
 @media screen and (max-width: 780px) {
@@ -778,6 +780,16 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     background: transparent;
+  }
+
+  /******************************** planes *****************************/
+  .serv-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .planes {
+    width: 50%;
   }
 }
 
