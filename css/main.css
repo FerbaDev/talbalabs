@@ -16,6 +16,9 @@
   font-family: var(--font-roboto);
   background-color: var(--clr-violeta);
 }
+.padd20 {
+  padding: 20px;
+}
 body {
   overflow-x: hidden;
 }
@@ -63,6 +66,7 @@ a:hover {
 }
 .logo {
   color: var(--clr-rosita);
+  font-size: 2em;
 }
 .slide-in-left {
   animation: slide-in-left 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -240,6 +244,27 @@ main {
 }
 
 /******************************** planes  ***************/
+.serv-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  padding-bottom: 50px;
+}
+.plan-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  padding-block: 50px;
+}
+.plan-description p {
+  background-color: #503c7c;
+  padding: 20px;
+}
 .planes {
   color: aliceblue;
   padding: 20px;
@@ -466,6 +491,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 3em;
+  border-top: 1px solid #d73cbe;
 }
 .footer-title {
   font-size: 25px;
@@ -666,6 +692,13 @@ footer {
   .card-plan {
     width: 30%;
   }
+  .planes {
+    width: 50%;
+  }
+  .plan-description p {
+    width: 70%;
+    padding: 20px;
+  }
 
   /******************************** preguntas frecuentes ***************/
 
@@ -761,7 +794,7 @@ footer {
 
   footer {
     padding: 50px;
-    border-top: 1px solid #d73cbe;
+
     margin-top: 10px;
   }
   .footer-title {
@@ -780,16 +813,6 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     background: transparent;
-  }
-
-  /******************************** planes *****************************/
-  .serv-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .planes {
-    width: 50%;
   }
 }
 
