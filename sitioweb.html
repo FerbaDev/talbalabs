@@ -33,7 +33,44 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body style="font-family: 'Roboto Mono', monospace">
-    <section class="serv-container">
+    <!-- HEADER -->
+    <header>
+      <h2 class="logo" id="logo">Talba Labs</h2>
+      <button id="abrir" class="abrir-menu" aria-label="Abrir menú">
+        <i class="bi bi-list"></i>
+      </button>
+      <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar" aria-label="Cerrar menú">
+          <i class="bi bi-x"></i>
+        </button>
+        <ul class="nav-list">
+          <li>
+            <a href="#quienes-somos" aria-label="Quienes somos"
+              >Quiénes somos</a
+            >
+          </li>
+          <li>
+            <a href="https://talbalabs.com.ar#servicios" aria-label="Servicios"
+              >Servicios</a
+            >
+          </li>
+          <li><a href="#proyectos" aria-label="Proyectos">Proyectos</a></li>
+          <li><a href="#contacto" aria-label="Contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main class="serv-container">
+      <div class="plan-description">
+        <h1>Sitios Webs</h1>
+        <h2 class="padd20">Para Potenciar tu Presencia Online</h2>
+        <p>
+          Diseñamos y desarrollamos sitios web a medida que reflejan la
+          identidad de tu marca y ofrecen una experiencia de usuario
+          excepcional. Desde sitios corporativos hasta portales de comercio
+          electrónico, estamos aquí para ayudarte a destacar en línea.
+        </p>
+      </div>
       <div class="planes">
         <div class="plan-container">
           <div class="plan-header">
@@ -84,7 +121,70 @@
           </div>
         </div>
       </div>
-    </section>
+    </main>
+    <!--------------------------------- FOOTER ------------------------------->
+
+    <footer>
+      <div class="footer-title" id="contacto">
+        <h2 class="texto-blanco">Hablemos de negocios</h2>
+      </div>
+      <div class="footer-body">
+        <div class="footer-sec-1">
+          <div class="contacto">
+            <div class="texto-blanco">
+              <h3>Teléfonos</h3>
+              <a
+                href="https://wa.me/5493571573266?text=¡Hola!+Quiero+hacer+una+consulta."
+                target="_blank"
+                aria-label="Enviar WhatsApp"
+                >3571-573266</a
+              >
+              //
+              <a
+                href="https://wa.me/5493515378056?text=¡Hola!+Quiero+hacer+una+consulta."
+                target="_blank"
+                aria-label="Enviar WhatsApp al número alternativo"
+                >351-5378056</a
+              >
+            </div>
+            <div class="texto-blanco">
+              <h3>Email</h3>
+              <p>agenciatalbalabs@gmail.com</p>
+            </div>
+            <div class="local texto-blanco">
+              <i class="bi bi-geo-alt"></i>
+              <address>Río Tercero, Córdoba. Argentina.</address>
+            </div>
+          </div>
+          <div class="redes texto-blanco">
+            <h2>Redes</h2>
+            <div class="redes-iconos">
+              <a
+                href="https://wa.me/5493571573266?text=¡Hola!+Quiero+hacer+una+consulta."
+                target="_blank"
+                aria-label="Enviar WhatsApp"
+              >
+                <i class="bi bi-whatsapp"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/talbalabs/"
+                target="_blank"
+                aria-label="Ver página de facebook"
+              >
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/talbalabs/"
+                target="_blank"
+                aria-label="Ver página de instagram"
+              >
+                <i class="bi bi-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="./js/main.js"></script>
   </body>
 </html>
