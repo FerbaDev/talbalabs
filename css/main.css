@@ -699,6 +699,11 @@ footer {
     width: 70%;
     padding: 20px;
   }
+  .plan-description h3 {
+    max-width: 60%;
+    font-size: 1.3em;
+    text-align: center;
+  }
 
   /******************************** preguntas frecuentes ***************/
 
