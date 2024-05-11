@@ -243,6 +243,15 @@ main {
   transform: scale(1.1);
   background-color: #503c7c;
 }
+.contact-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contact-button {
+  background-color: var(--clr-rosita);
+  padding: 10px;
+}
 
 /******************************** planes  ***************/
 .serv-container {
