@@ -63,6 +63,7 @@ a {
 }
 a:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 .logo {
   color: var(--clr-rosita);
@@ -419,10 +420,12 @@ details p {
   background-color: transparent;
 }
 .proyectos-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin-top: 2em;
   background-color: transparent;
+  flex-wrap: wrap;
 }
 .card-proyecto {
   width: 100%;
