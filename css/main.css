@@ -201,7 +201,7 @@ main {
   color: aliceblue;
   padding-left: var(--padleft);
   max-width: 95%;
-  padding-block: 3em;
+  padding-block: 1em;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -695,7 +695,7 @@ footer {
 
   .serv-section {
     padding-left: 50px;
-    padding-block: 8em;
+    padding-block: 3em;
     gap: 4em;
   }
   .cards-planes {
