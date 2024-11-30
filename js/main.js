@@ -3,7 +3,7 @@ const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
 const blob1 = document.querySelector("#blob1");
 const frase = document.querySelector(".scale-in-hor-left");
-const logo = document.querySelector("#logo");
+// const logo = document.querySelector("#logo");
 const whatsappButton = document.querySelector(".whatsapp-float");
 
 abrir.addEventListener("click", () => {
@@ -15,10 +15,10 @@ cerrar.addEventListener("click", () => {
   nav.classList.remove("visible");
 });
 
-logo.addEventListener("click", () => {
-  //enlace de la pagina que quieras
-  window.location.href = "./index.html";
-});
+// logo.addEventListener("click", () => {
+//   //enlace de la pagina que quieras
+//   window.location.href = "./index.html";
+// });
 
 //boton de whatsapp
 window.addEventListener("scroll", function() {
