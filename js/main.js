@@ -2,13 +2,18 @@ const nav = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
 const blob1 = document.querySelector("#blob1");
-const frase = document.querySelector(".scale-in-hor-left");
-// const logo = document.querySelector("#logo");
+const frase = document.querySelectorAll(".frase");
+const logo = document.querySelector(".logo");
 const whatsappButton = document.querySelector(".whatsapp-float");
+const links = document.querySelectorAll(".nav-list li a");
+
+
+
+
 
 abrir.addEventListener("click", () => {
   nav.classList.add("visible");
-  frase.classList.remove("scale-in-hor-left");
+  //frase.classList.remove("scale-in-hor-left");
 });
 
 cerrar.addEventListener("click", () => {
@@ -30,4 +35,24 @@ window.addEventListener("scroll", function() {
       console.log("Ocultando botón de WhatsApp");
       whatsappButton.style.display = "none";
   }
+});
+
+gsap.from(logo, {
+  x: "-300",
+  rotate: 360,
+  duration: 1,
+  delay:0.05
+})
+
+gsap.from(frase, {
+  x: "-1000",
+  duration: "1",
+  ease: "power3.out",
+  stagger: "0.5"
+})
+
+gsap.from(".nav-list li a", {
+  y: -1000,
+  duration: 1,
+  stagger: 0.5
 });
